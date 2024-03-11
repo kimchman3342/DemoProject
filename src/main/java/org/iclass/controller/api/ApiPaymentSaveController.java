@@ -13,9 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.iclass.controller.Controller;
 import org.iclass.dao.BookcaseDao;
-import org.iclass.dao.DemoMemberDao;
-import org.iclass.service.MemberService;
-import org.iclass.vo.DemoMember;
 import org.iclass.vo.SalePayDetails;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

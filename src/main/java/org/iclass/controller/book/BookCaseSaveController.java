@@ -21,7 +21,7 @@ public class BookCaseSaveController implements Controller {
 	@Override
 	public void handle(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//사용자가 업로드한 파일이 저장될 서버 경로(파일시스템 경로)
-		String path = "D:\\Class231228\\upload";
+		String path = "D:\\class 20231228\\upload";
 		// 서버의 로컬 경로에 대해 url 을 지정합니다 -> 톰캣 server.xml
 		// <Context docBase="D:/Class231228/upload" path="/upload"/> 추가하기
 		
